@@ -1,0 +1,46 @@
+#number {
+  list-style: none;
+  position: fixed;
+  top: 40%;
+  max-height: 720px;
+  left: 91%;
+  padding-left: 1%;
+  width: 7%;
+  z-index: 100;
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Firefox < 16 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+  animation: fadein 8s;
+}
+
+.one {
+  top: -1px;
+}
+
+.two {
+  top: 144px;
+}
+
+.three {
+  top: 288px;
+}
+
+.four {
+  top: 432px;
+}
+
+.five {
+  top: 576px;
+}
+
+#number > ul > li {
+  display: block;
+  list-style: none;
+  color: white;
+  padding-top: 5px;
+  padding-left: 18px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=home_smooth.css.map */

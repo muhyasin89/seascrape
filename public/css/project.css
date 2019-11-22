@@ -1,0 +1,41 @@
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small devices (tablets, 768px and up)*/
+@media only screen and (min-width: 720px){
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1850px) {
+    .info {
+        color: #153486;
+        margin-left: 8%;
+        margin-top: 0%;
+    }
+    .project_container{
+      margin: 4% 5.8%;
+    }
+    .project_container a, .project_container a:hover{
+      color: #153486;
+      text-decoration: none;
+    }
+    #project_desc img{
+      max-width: 100%;
+    }
+}

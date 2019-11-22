@@ -1,0 +1,5 @@
+https://github.com/jorenvh/laravel-share
+
+https://github.com/cviebrock/eloquent-sluggable
+
+https://github.com/s-ichikawa/laravel-sendgrid-driver

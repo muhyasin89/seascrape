@@ -1,0 +1,46 @@
+@media only screen and (min-width : 320px) {
+    /* Styles */
+    .contact_image img{
+        width:90%;
+        margin-left: 5%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small devices (tablets, 768px and up)*/
+@media only screen and (min-width: 720px){
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .contact_image{
+        position: absolute;
+        right: 8.3333%;
+        top: 0;
+        width: 55%;
+        z-index: -20;
+        margin-top: 2%;
+        animation: slide_right 7s;
+    }
+
+    .contact_image img{
+        width:100%;
+        margin-left: 0;
+    }
+
+
+    @keyframes slide_right{
+        from {right: 3%;}
+        to{right: 8.3333%;}
+    }
+
+    .contact_container{
+        margin: 0 calc(5% + 15px) 3%;
+        position: relative;
+    }
+}

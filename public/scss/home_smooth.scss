@@ -1,0 +1,60 @@
+// Menu Item Variables
+// The number of items in the menu
+$menu-items: 5;
+// We multiply it by 1% to get the correct % unit
+$height: (100/$menu-items) * 1%;
+$menu-items-loop-offset: $menu-items - 1; // the number of items in the menu
+
+$max-height:720px;
+
+$list_height: ($max-height/5);
+// Colors
+$background-color: #121212;
+$indicator-color: #e82d00;
+
+// Transition Speed
+$transition-speed: 1.3s;
+$pad_top:5px;
+
+$width: 42px;
+$top:40%;
+$color:white;
+
+
+
+// The parent container
+#number {
+  // Remove the bullet points by default
+  list-style: none;
+  position: fixed;
+
+  // The nav will never exceed this width and what our calculated percentages related back to
+  top:40%;
+  max-height: $max-height;
+  left:91%;
+  padding-left: 1%;
+  width: 7%;
+  z-index: 100;
+  -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 8s; /* Firefox < 16 */
+  -ms-animation: fadein 8s; /* Internet Explorer */
+  -o-animation: fadein 8s; /* Opera < 12.1 */
+  animation: fadein 8s;
+}
+
+.one{top:-1px;}
+.two{top:($list_height)}
+.three{top:($list_height*2)}
+.four{top:($list_height*3)}
+.five{top:($list_height*4)}
+
+
+
+#number>ul>li{
+  display: block;
+  list-style: none;
+  color: white;
+  padding-top: 5px;
+  padding-left: 18px;
+  cursor: pointer;
+}

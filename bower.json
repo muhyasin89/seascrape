@@ -1,0 +1,17 @@
+{
+  "name": "seascrape",
+  "description": "SeaScrape",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "jarallax": "^1.9.3",
+    "masonry-layout": "^4.2.1"
+  }
+}
