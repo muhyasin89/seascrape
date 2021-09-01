@@ -24,7 +24,7 @@
         "localheinz/factory-girl-definition": "^1.1",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~6.0",
-        "codeception/codeception": "~2.0",
+        "codeception/codeception": "~3.1",
         "league/factory-muffin": "^3.0",
         "league/factory-muffin-faker": "^2.0"
 
